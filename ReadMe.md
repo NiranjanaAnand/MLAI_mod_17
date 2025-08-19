@@ -35,7 +35,7 @@ Apply various classification methods to a business problem and compare the resul
 
 We executed various classification machine learning models on the Portugal – Bank Deposit Subscription Dataset to identify a model with strong performance. We compared metrics, including accuracy, precision, recall, and F1-score, along with the runtime of each model.
 
-###Key Observations
+### Key Observations
 
 * The dataset is imbalanced; therefore, accuracy alone is not a reliable performance measure.
 
@@ -55,7 +55,7 @@ We executed various classification machine learning models on the Portugal – B
 
 * SVC with GridSearchCV showed the least overfitting but yielded poor recall values.
 
-###Inference
+### Inference
 
 Based on the dataset and the applied transformations, SVC performed better overall compared to other models. However, its recall performance needs improvement. Despite this limitation, SVC can be considered a suitable model for predicting deposit subscription outcomes in this dataset.
 
